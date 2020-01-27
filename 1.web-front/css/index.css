@@ -1,0 +1,1014 @@
+body{
+    font-size: 20px;
+    cursor:url("../img/decaration/lanten4.ico"),auto;
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+/* 背景图 */
+.background img{
+    width: 100%;
+    height: 940px;
+    
+}
+.background img.foever{
+    position: fixed;
+    z-index: -1;
+}
+/* 标题 */
+.title{
+    width: 100%;
+    height: 150px;
+    background: red;
+    position: relative;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.title .first{
+    position: absolute;
+    left: 400px;
+    font-size: 50px;
+    line-height: 1.4em;
+    width: 60px;
+    height: 146px;
+    border-right: gold solid 4px;
+    color: #fff;
+    font-weight: bold;
+}
+.title .discribe{
+    position: absolute;
+    width: 900px;
+    height: 150px;
+    left: 500px;
+    color: #fff;
+    text-indent: 2em;
+}
+.title .discribe .one{
+    margin-top: 20px;
+}
+.title .discribe .two{
+    margin: 40px;
+}
+/* 引言 */
+.prologue{
+    width: 100%;
+    height: 100px;
+    background: rgba(204, 204, 204, 0.6);
+    color: red;
+    font-size: 32px;
+    text-align: center;
+    border: 2px solid black;
+    /* border-top: none; */
+    box-sizing: border-box;
+    margin: 5px 0;
+    line-height: 100px;
+    
+}
+
+/* 正文 */
+.artical {
+    width: 60%;
+    margin: 0 auto;
+    /* background: pink; */
+}
+/* 段落整体配置 */
+.artical p{
+    font-size: 20px;
+    line-height: 1.5em;
+    text-indent: 2em;
+    padding: 0 15px;
+}
+/* 标题总体配置 */
+.artical .h2{
+    text-align: center;
+    height: 100px;
+}
+.hiden{
+    display: none;
+}
+/* 1949 标题 */
+.artical .first-item .head-first{
+    height: 90px;
+    width: 70%;
+    /* background: pink; */
+    /* background: gold; */
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.artical .first-item .head-first .show{
+    margin-left: 120px;
+}
+/* 轮播图与索引栏 */
+.artical .first-item .head{
+    width: 100%;
+    height: 300px;
+    margin: 5px 0;
+    position: relative;
+}
+/* 轮播图 */
+.change-a{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    margin: 0 0 0 20px;
+}
+/* 轮播的照片 */
+.change-a .change-photo-a{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    
+    
+}
+.top{
+    /* 当前置顶的图片 */
+    z-index: 3;
+}
+.change-a .change-photo-a a{
+    position: absolute;
+
+}
+.change-a .change-photo-a img{
+   
+    width: 700px;
+    height: 300px;
+}
+/* 控制的点 */
+.change-a .point-a{
+    position: absolute;
+    bottom:-5px;
+    right: -40px;
+    width:200px;
+    height: 50px;
+    
+    
+}
+/* 控制的点 */
+.change-a .point-a ul>li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: rgba(255, 192, 203, 0.7) solid 4px;
+    margin: 1px 9px;
+    border-radius: 50%;
+}
+/* 用于jQ切换点的状态 */
+.active{
+    background: rgba(255, 192, 203, 0.7);
+}
+/* 左右的箭头 */
+.change-a .arrow-a img{
+    width: 50px;
+    height: 50px;
+}
+.change-a .arrow-a .left-a{
+    position: absolute;
+    top: 125px;
+    left: 0px;
+}
+.change-a .arrow-a .right-a{
+    position: absolute;
+    top: 125px;
+    right: 0px;
+}
+.change-a .arrow-a div:hover{
+    background: rgba(255, 192, 203, 0.7);
+    box-sizing: border-box;
+    border: 1px solid pink;
+    border-radius: 50%;
+}
+
+
+
+/* 索引栏 */
+.artical .head .content{
+    width: 370px;
+    height: 300px;
+    position: absolute;
+    /* background: yellow; */
+    top: 0;
+    right: 30px;
+    /* border: black 2px solid;
+    box-sizing: border-box; */
+}
+/* 索引内容 */
+.artical  .head .content ul>li{
+    width: 100%;
+    height: 85px;
+    border-bottom: 2px dashed grey;
+    box-sizing: border-box;
+    font-size: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+}
+/* 标题 */
+.artical  .head .content .explain{
+    margin-top: -40px;
+}
+.artical  .head .content .explain .show{
+    margin: 35px 0 0 20px;
+}
+/* 超链接配置 */
+.artical .head .content ul>li a{
+    font-size: 30px;
+    text-decoration: underline;
+    white-space:nowrap;
+    line-height: 80px;
+}
+.artical .head .content ul>li a:hover{
+    color: red;
+}
+/* 1949第一条介绍 */
+.artical .first-item .introduction .first{
+    width: 100%;
+    height: 435px;
+    margin: 20px 0;
+    background: rgba(239, 239, 239, 0.5);
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.artical .first-item .introduction .first .big{
+    width: 40%;
+    height: 230px;
+    float: right;
+    margin: 35px 8px 10px 10px;
+}
+.artical .first-item .introduction .first .small{
+    width: 27%;
+    position: absolute;
+    bottom: 10px;
+    height: 180px;
+    right: -25px;
+}
+/* 1949第二条介绍 */
+.artical .first-item .introduction  .second{
+    width: 100%;
+    height: 415px;
+    margin: 20px 0;
+    background: rgba(207, 204, 201,0.4);
+    position: relative;
+    margin-bottom: 60px;
+}
+.artical .first-item .introduction .second .big{
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin: 23px 8px 10px 5px;
+
+}
+.artical .first-item .introduction .second .temp{
+    margin-left: 360px;
+}
+.artical .first-item .introduction .second .small{
+    width: 27%;
+    position: absolute;
+  
+    bottom: 8px;
+    left: 60px;
+}
+/* 1949第三条介绍 */
+.artical .first-item .introduction  .third{
+    width: 100%;
+    height: 415px;
+    margin: 20px 0;
+    background: rgba(196, 203, 207, 0.6);
+    position: relative;
+    margin-bottom: 15px;
+}
+.artical .first-item .introduction .third .big{
+    width: 40%;
+    height: 230px;
+    float: right;
+    margin: 80px 8px 10px 5px;
+}
+.artical .first-item .introduction .third .small{
+    width: 27%;
+    position: absolute;
+    top: -78px;
+    right: -124px; 
+}
+.artical .second-item .header-second{
+    height: 90px;
+    width: 70%;
+    /* background: gold; */
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+.artical .second-item .header-second .show{
+    margin-left: 50px;
+}
+.artical .second-item .head{
+    width: 100%;
+    height: 300px;
+    margin: 5px 0;
+    position: relative;
+}
+/* 轮播图 */
+.change-b{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    margin: 0 0 0 20px;
+}
+/* 轮播的照片 */
+.change-b .change-photo-b{
+    position: relative;
+    width: 700px;
+    height: 300px; 
+}
+.change-b .change-photo-b a{
+    position: absolute;
+
+}
+.change-b .change-photo-b img{
+   
+    width: 700px;
+    height: 300px;
+}
+/* 控制的点 */
+.change-b .point-b{
+    position: absolute;
+    bottom:-5px;
+    right: -40px;
+    width:200px;
+    height: 50px;
+    
+    
+}
+/* 控制的点 */
+.change-b .point-b ul>li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: rgba(255, 192, 203, 0.7) solid 4px;
+    margin: 1px 9px;
+    border-radius: 50%;
+}
+/* 用于jQ切换点的状态 */
+.active{
+    background: rgba(255, 192, 203, 0.7);
+}
+/* 左右的箭头 */
+.change-b .arrow-b img{
+    width: 50px;
+    height: 50px;
+}
+.change-b .arrow-b .left-b{
+    position: absolute;
+    top: 125px;
+    left: 0px;
+}
+.change-b .arrow-b .right-b{
+    position: absolute;
+    top: 125px;
+    right: 0px;
+}
+.change-b .arrow-b div:hover{
+    background: rgba(255, 192, 203, 0.7);
+    box-sizing: border-box;
+    border: 1px solid pink;
+    border-radius: 50%;
+}
+.artical .second-item .head{
+    position: relative;
+}
+.artical .second-item .introduction .first{
+    width: 100%;
+    height: 415px;
+    margin: 20px 0;
+    background: rgba(196, 203, 207, 0.6);
+    position: relative;
+    margin-bottom: 80px;
+}
+.artical .second-item .introduction .first .big{
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin: 15px 8px 10px 10px;
+}
+.artical .second-item .introduction .first .small{
+    width: 27%;
+    float: right;
+    height: 180px;
+    margin: -150px 8px 0 0;
+}
+.artical .second-item .introduction .second{
+    width: 100%;
+    height: 435px;
+    margin: 20px 0;
+    background: rgba(207, 204, 201,0.4);
+    position: relative;
+    margin-bottom: 60px;
+}
+.artical .second-item .introduction .second .big{
+    width: 40%;
+    height: 230px;
+    float: right;
+    margin: 15px 8px 10px 10px;
+}
+.artical .second-item .introduction .second .small{
+    width: 27%;
+    float: left;
+    height: 180px;
+    margin-left: -60px;
+}
+.artical .second-item .introduction .third{
+    width: 100%;
+    height: 435px;
+    margin: 20px 0;
+    background: rgba(239, 239, 239, 0.5);
+    position: relative;
+    margin-bottom: 30px;
+}
+.artical .second-item .introduction .third .big{
+    width: 40%;
+    height: 230px;
+    float: right;
+    margin: -30px 8px 10px 10px;
+}
+.artical .second-item .introduction .third   .small{
+    width: 27%;
+    float: right;
+    height: 180px;
+    /* margin-left: -60px; */
+    margin: -31px 10px 0 0 ;
+}
+.artical .third-item .header-third{
+    height: 140px;
+    width: 70%;
+    /* background: gold; */
+    margin: 0 auto;
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+}
+.artical .third-item .header-third .show{
+    
+    margin-left: 30px;
+}
+.artical .third-item .head{
+    width: 100%;
+    height: 300px;
+    margin: 5px 0;
+    position: relative;
+}
+/* 轮播图 */
+.change-c{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    margin: 0 0 0 20px;
+}
+/* 轮播的照片 */
+.change-c .change-photo-c{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    
+    
+}
+.top{
+    /* 当前置顶的图片 */
+    z-index: 3;
+}
+.change-c .change-photo-c a{
+    position: absolute;
+
+}
+.change-c .change-photo-c img{
+   
+    width: 700px;
+    height: 300px;
+}
+/* 控制的点 */
+.change-c .point-c{
+    position: absolute;
+    bottom:-5px;
+    right: -40px;
+    width:200px;
+    height: 50px;
+    
+    
+}
+/* 控制的点 */
+.change-c .point-c ul>li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: rgba(255, 192, 203, 0.7) solid 4px;
+    margin: 1px 9px;
+    border-radius: 50%;
+}
+
+/* 左右的箭头 */
+.change-c .arrow-c img{
+    width: 50px;
+    height: 50px;
+}
+.change-c .arrow-c .left-c{
+    position: absolute;
+    top: 125px;
+    left: 0px;
+}
+.change-c .arrow-c .right-c{
+    position: absolute;
+    top: 125px;
+    right: 0px;
+}
+.change-c .arrow-c div:hover{
+    background: rgba(255, 192, 203, 0.7);
+    box-sizing: border-box;
+    border: 1px solid pink;
+    border-radius: 50%;
+}
+.artical .third-item .introduction .first{
+    width: 100%;
+    height: 435px;
+    margin: 20px 0;
+    background: rgba(164, 172, 167,0.5);
+    position: relative;
+    margin-bottom: 60px;
+}
+.artical .third-item .introduction .first .big{
+    width: 40%;
+    height: 230px;
+    float: right;
+    margin: 35px 8px 10px 10px;
+}
+.artical .third-item .introduction .first .small{
+    width: 27%;
+    height: 180px;
+    position: absolute;
+    bottom: 15px  ;
+    right: 15px;
+}
+.artical .third-item .introduction .second{
+    width: 100%;
+    height: 435px;
+    margin: 20px 0;
+    background: rgba(192, 196, 195, 0.5);
+    position: relative;
+    margin-bottom: 60px;
+}
+.artical .third-item .introduction .second .big{
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin: 35px 8px 10px 10px;
+}
+.artical .third-item .introduction .second .small{
+    width: 27%;
+    height: 180px;
+    float: left;
+    margin: -50px 10px 0 30px ;
+}
+.artical .third-item .introduction .third{
+    width: 100%;
+    height: 435px;
+    /* margin: 20px 0; */
+    background: rgba(178, 187, 190, 0.3);
+    position: relative;
+    
+}
+.artical .third-item .introduction .third .big{
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin: 15px 8px 5px 10px;
+}
+.artical .third-item .introduction .third .small{
+    width: 27%;
+    height: 180px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.artical .fourth-item .header-fourth{
+    height: 130px;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    line-height: 90px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.artical .fourth-item .header-fourth .show{
+    margin: 35px 0 0 -5px;
+}
+.artical .fourth-item .head{
+    width: 100%;
+    height: 300px;
+    margin: 5px 0;
+    position: relative;
+}
+/* 轮播图 */
+.change-d{
+    position: relative;
+    width: 700px;
+    height: 300px;
+    margin: 0 0 0 20px;
+}
+/* 轮播的照片 */
+.change-d .change-photo-d{
+    position: relative;
+    width: 700px;
+    height: 300px;
+}
+
+.change-d .change-photo-d a{
+    position: absolute;
+
+}
+.change-d .change-photo-d img{
+   
+    width: 700px;
+    height: 300px;
+}
+/* 控制的点 */
+.change-d .point-d{
+    position: absolute;
+    bottom:-5px;
+    right: -40px;
+    width:200px;
+    height: 50px;
+    
+    
+}
+/* 控制的点 */
+.change-d .point-d ul>li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: rgba(255, 192, 203, 0.7) solid 4px;
+    margin: 1px 9px;
+    border-radius: 50%;
+}
+
+/* 左右的箭头 */
+.change-d .arrow-d img{
+    width: 50px;
+    height: 50px;
+}
+.change-d .arrow-d .left-d{
+    position: absolute;
+    top: 125px;
+    left: 0px;
+}
+.change-d .arrow-d .right-d{
+    position: absolute;
+    top: 125px;
+    right: 0px;
+}
+.change-d .arrow-d div:hover{
+    background: rgba(255, 192, 203, 0.7);
+    box-sizing: border-box;
+    border: 1px solid pink;
+    border-radius: 50%;
+}
+.artical .fourth-item .introduction .first{
+    width: 100%;
+    height: 445px;
+    margin: 20px 0;
+    background: rgba(178, 187, 190, 0.3);
+    position: relative;
+    margin-bottom: 60px;
+}
+.artical .fourth-item .introduction .first .big{
+    width: 40%;
+    height: 230px;
+    float: right;
+    margin: 35px 8px 10px 10px;
+}
+.artical .fourth-item .introduction .first .small{
+    width: 27%;
+    height: 180px;
+    position: absolute;
+    top: -30px;
+    right: -100px;
+}
+.artical .fourth-item .introduction .second{
+    width: 100%;
+    height: 415px;
+    margin: 20px 0;
+    background: rgba(192, 196, 195, 0.5);
+    position: relative;
+    margin-bottom: 60px;
+}
+.artical .fourth-item .introduction .second .big{
+    width: 40%;
+    height: 230px;
+    float: right;
+    margin: 20px 8px 10px 10px;
+}
+.artical .fourth-item .introduction .second .small{
+    width: 27%;
+    height: 180px;
+    float: left;
+    margin: 5px 10px 0 -82px ;
+}
+.artical .fourth-item .introduction .third{
+    width: 100%;
+    height: 500px;
+    margin: 20px 0;
+    background: rgba(164, 172, 167,0.5);
+    position: relative;
+    margin-bottom: 60px;
+}
+.artical .fourth-item .introduction .third .big{
+    width: 40%;
+    height: 230px;
+    float: left;
+    margin: 20px 8px 10px 10px;
+}
+.artical .fourth-item .introduction .third .small{
+    width: 27%;
+    height: 180px;
+    float: right;
+    margin: -30px -50px 0 0 ;
+}
+.end{
+    width: 100%;
+    height: 150px;
+    background: red;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.end .back{
+    position: absolute;
+    left: 400px;
+    font-size: 50px;
+    line-height: 1.4em;
+    width: 60px;
+    height: 146px;
+    border-right: gold solid 4px;
+    color: #fff;
+    font-weight: bold;
+}
+.end .content{
+    position: absolute;
+    width: 900px;
+    height: 150px;
+    left: 500px;
+    color: #fff;
+    text-indent: 2em;
+}
+.end .content .one{
+    margin: 15px 0;
+}
+.footer{
+    width: 100%;
+    /* height: 300px; */
+    color: rgb(153, 162, 170);
+    background: rgba(204, 204, 204, 0.6);
+}
+.footer .contact{
+    /* background: gold; */
+    width: 80%;
+    margin: 0 auto;
+    
+    text-align: center;
+}
+.footer .contact .words{
+    /* margin: 0 auto; */
+    padding: 20px 0;
+}
+.footer .contact .me{
+    position: relative;
+}
+.footer .contact .me .mine{
+    display: inline-block;
+    margin: 20px;
+}
+.footer .contact .me .mine .check{
+    float:right;
+
+}
+.footer .contact .me .mine .check img{
+    width: 60px;
+    height: 60px;
+}
+.footer .contact .me .hide {
+    position: absolute;
+    top: -180px;
+    right: 460px;
+    display: none;
+}
+.footer .contact .me .hide img{
+    width: 250px;
+    height: 250px;
+}
+/* 留言板 */
+.aside{
+    position: fixed;
+    right: 0;
+    width: 320px;
+    height: 100%;
+    top:30px;
+    text-align: center;
+}
+/* 左侧按钮 */
+.aside  .open{
+    float: right;
+    margin-top: 250px;
+    width: 30px;
+    height: 200px;
+    background: rgba(255, 192, 203, 0.4);
+    font-size: 20px;
+}
+.aside  .open:hover{
+    background: rgba(255, 192, 203, 0.7);
+    cursor: pointer;
+}
+/* 留言区整体 */
+.aside .totle{
+    float: right;
+    background: rgba(255, 192, 203, 0.4);
+    border: #008c8c 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 290px;
+    height: 880px;
+    right: 0;
+    display: none;
+    cursor:url("../img/decaration/pao3.ico"),auto;
+}
+/* 标题 */
+.aside .totle .title-a{
+    height: 60px;
+    margin-bottom: 9px;
+    overflow: hidden;
+}
+
+/* 留言框 */
+.aside .totle .remain{
+    margin: 0 auto;
+    height: 620px;
+    width: 290px;
+    background: rgba(255, 192, 203, 0.4);
+    margin-bottom: 20px;
+    overflow: overlay;
+    border: #008c8c 1px solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/* 留言内容 */
+.aside .totle .remain ul>li{
+    padding: 8px;
+    height: auto;
+    min-height: 50px;
+    padding-right: 16px;
+    border-bottom: 1px solid #008c8c;
+    box-sizing: border-box;
+    font-size: 20px;
+    word-break: break-all;
+    text-align: left;
+    text-indent: 2em;
+    line-height: 30px;
+}
+/* 输入框 */
+.aside .totle .words{
+    width: 290px;
+    height: 100px;
+    resize: none;
+    overflow: overlay;
+    font-size: 20px;
+    border: 1px solid #008c8c;
+    background: rgba(255, 192, 203, 0.7);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 8px;
+    padding-right: 17px;
+    margin-top: -20px;
+    
+}
+/* 提交按钮 */
+.aside .totle .inhand{
+    width: 250px;
+    margin-left: 10px;
+    background: rgba(255, 192, 203, 0.4);
+    height: 35px;
+    border-radius: 5px;
+    /* 变色延迟 */
+    transition: all 0.5s;
+}
+.aside .totle .inhand .handing{
+    margin-top: -5px;
+}
+.aside .totle .inhand:hover{
+    background: rgba(255, 192, 203, 1);
+    cursor: pointer;
+}
+.back-top a{
+    position: fixed;
+    bottom: 36px;
+    left: 0;
+}
+.back-top a>img{
+    width: 80px;
+    height: 80px;
+}
+.back-top a:hover{
+    background: rgba(255, 192, 203, 0.7);
+}
+.left-aside{
+    width: 120px;
+    height: 700px;
+    position: fixed;
+    /* background: pink; */
+    top: 70px;
+}
+.left-aside a{
+    display: block;
+    margin: 20px 0;
+}
+/* 献歌部分 */
+.song{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.movie {
+    width: 60%;
+    height: 540px;
+    margin: 0 auto;
+    /* margin-top: 200px; */
+    background: rgba(230, 230, 230, 0.7 );
+    /* padding-top: 5px; */
+    margin-bottom: 20px;
+}
+
+.movie .left {
+    float: left;
+    /* margin-top: 20px; */
+}
+
+.movie .left iframe {
+    width: 780px;
+    height: 500px;
+    margin: 20px 10px;
+}
+
+.movie .right {
+    float: left;
+    width: 340px;
+    height: 500px;
+    /* background: grey; */
+    margin: 20px 0;
+    margin-left: -8px;
+}
+
+.movie .right ul>Li.movie-photo {
+    float: left;
+    width: 160px;
+    height: 145px;
+    border: solid 2px #f5f7f9;
+    box-sizing: border-box;
+    margin: 10px 5px;
+}
+
+.movie .right ul>Li.movie-photo .movie-a {
+    display: inline-block;
+    text-align: center;
+
+}
+.movie .right ul>Li.movie-photo .movie-a:hover{
+    color: red;
+}
+
+.movie .right ul>Li.movie-photo .movie-a img {
+
+    width: 156px;
+    height: 100px;
+    border: solid 2px orange;
+    box-sizing: border-box;
+}
+
+.movie .right ul>Li.movie-photo .movie-a .movie-dis {
+    width: 156px;
+    display: block;
+    font-size: 12px;
+    /* background: orange; */
+    height: 40px;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
